@@ -1,6 +1,6 @@
-## Renato# Olá, eu sou Renato👋
+# Olá, eu sou Renato
 
-### 🚀 Desenvolvedor de Software & Analista de Dados
+### Desenvolvedor de Software & Analista de Dados
 
 Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criação de soluções de inteligência de dados para tomada de decisão. Tenho experiência com desenvolvimento backend (Java/Spring Boot, PHP), banco de dados e engenharia de dados/BI (Power BI, DAX, Power Query, Pandas).
 
@@ -52,6 +52,5 @@ Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criaçã
 
 ### 📬 Como me encontrar
 
-- **LinkedIn:** [linkedin.com/in/seu-perfil](https://linkedin.com)
-- **E-mail:** seu.email@email.com
-- **Portfólio / Contato:** [Link adicional se tiver]
+- **LinkedIn:** https://www.linkedin.com/in/renato-arouche-405841327/
+- **E-mail:** renatoarouche3@gmail.com
