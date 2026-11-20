@@ -41,15 +41,6 @@ Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criaçã
 
 ---
 
-### 📈 Estatísticas do GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO-AQUI&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO-AQUI&layout=compact&theme=dark"/>
-</div>
-
----
-
 ### 📬 Como me encontrar
 
 - **LinkedIn:** https://www.linkedin.com/in/renato-arouche-405841327/
