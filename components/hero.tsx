@@ -88,8 +88,8 @@ export function Hero() {
             <div className="absolute -inset-9 rounded-full border border-accent/10" />
             <div className="relative h-56 w-56 overflow-hidden rounded-full border-4 border-white bg-[#ece9ff] shadow-soft dark:border-white/10 sm:h-72 sm:w-72">
               <Image
-                src="/profile-placeholder.svg"
-                alt="Ilustração de perfil de Renato Arouche"
+                src="/profile.png"
+                alt="Foto de perfil de Renato Arouche"
                 fill
                 priority
                 sizes="(max-width: 640px) 224px, 288px"

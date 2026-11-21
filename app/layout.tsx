@@ -29,13 +29,13 @@ export const metadata: Metadata = {
       "Código bem pensado, dados que contam histórias e automações que simplificam o dia a dia.",
     type: "website",
     locale: "pt_BR",
-    images: ["/profile-placeholder.svg"],
+    images: ["/profile.png"],
   },
   twitter: {
     card: "summary",
     title: "Renato Arouche | Desenvolvedor & Analista de Dados",
     description: "Portfólio de desenvolvimento de software e análise de dados.",
-    images: ["/profile-placeholder.svg"],
+    images: ["/profile.png"],
   },
 };
 
