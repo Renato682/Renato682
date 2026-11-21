@@ -35,10 +35,10 @@ Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criaçã
 * **Tech Stack:** Java, Spring Boot, MySQL, JPA/Hibernate.
 * **Destaques:** Autenticação segura, regras de negócio para agendamento e integração com banco relacional.
 
-#### 🔐 [Módulo de Autenticação & Gestão de Usuários](LINK_DO_REPOSITORIO)
-* **Descrição:** Script backend para autenticação de usuários, controle de sessões e gerenciamento de acessos.
-* **Tech Stack:** PHP, MySQL.
-(https://github.com/Renato682/Automa-o-python)
+#### 🔐 [Automação em Python](https://github.com/Renato682/Automa-o-python)
+* **Descrição:** automação feita em python para um site de contabilidade onde ele cadastra as informações de forma automática. Obs: abaixe o maximo a pagina para funcionar as coordenadas do mouse.
+* **Tech Stack:** Python, PyAutoGUI.
+
 ---
 
 ### 📬 Como me encontrar
