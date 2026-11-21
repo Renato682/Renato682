@@ -2,7 +2,7 @@
 
 ### Desenvolvedor de Software & Analista de Dados
 
-Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criação de soluções de inteligência de dados para tomada de decisão. Tenho experiência com desenvolvimento backend (Java/Spring Boot, PHP), banco de dados e engenharia de dados/BI (Power BI, DAX, Power Query, Pandas).
+Sou estudante de TI focado no desenvolvimento de sistemas robustos, na criação de soluções de inteligência de dados para tomada de decisão e automações. Tenho experiência com desenvolvimento backend (Java/Spring Boot, PHP), banco de dados, engenharia de dados/BI (Power BI, DAX, Power Query, Pandas) e automações de tarefas repetitivas (Python).
 
 ---
 
