@@ -24,8 +24,8 @@ Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criaçã
 | Dashboard | Descrição | Links |
 | :--- | :--- | :---: |
 | **Gestão Clínica & Operacional** | Análise de atendimentos, taxa de ocupação, KPIs financeiros e tempo médio de espera. Usa DAX avançado e Query Folding. | [💻 Repositório](./) \| [🔗 Ver Interativo](#) |
-| **Análise de Vendas & Desempenho** | Acompanhamento de metas, faturamento por região e margem de lucro com inteligência temporal em DAX. | [💻 Repositório](./) \| [🔗 Ver Interativo](#) |
-<img width="1318" height="736" alt="Captura de tela 2026-11-07 170614" src="https://github.com/user-attachments/assets/b53d1cb5-34e5-4785-af75-2967a7103aef" />
+| **Análise de Vendas & Desempenho** | Acompanhamento de metas, faturamento por região e margem de lucro com inteligência temporal em DAX. | (https://github.com/Renato682/Dashboard-de-vendas)  |
+
 ---
 
 ### 💻 Projetos de Desenvolvimento
