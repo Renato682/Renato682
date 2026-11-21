@@ -1,47 +1,64 @@
-# Olá, eu sou Renato
+# Portfólio pessoal
 
-### Desenvolvedor de Software & Analista de Dados
+Portfólio responsivo feito com Next.js 16 (App Router), TypeScript, Tailwind CSS e Framer Motion. Inclui tema claro/escuro, projetos, habilidades, formação, certificados, interesses e formulário de contato integrado ao Resend.
 
-Sou estudante de TI focado no desenvolvimento de sistemas robustos, na criação de soluções de inteligência de dados para tomada de decisão e automações. Tenho experiência com desenvolvimento backend (Java/Spring Boot, PHP), banco de dados, engenharia de dados/BI (Power BI, DAX, Power Query, Pandas) e automações de tarefas repetitivas (Python).
+## Requisitos
 
----
+- Node.js 20.9 ou superior
+- npm (ou outro gerenciador compatível)
 
-### 🛠️ Tecnologias e Ferramentas
+## Instalação e execução
 
-**Linguagens & Backend:**  
-`Java` `Spring Boot` `PHP` `C` `HTML/CSS` `Python`
+```bash
+npm install
+npm run dev
+```
 
-**Análise de Dados & BI:**  
-`Power BI` `DAX` `Power Query (ETL)` `Modelagem de Dados` `Pandas em Python`
+Abra [http://localhost:3000](http://localhost:3000). Para verificar tipos e gerar a versão de produção:
 
-**Bancos de Dados & Ferramentas:**  
-`MySQL` `Git/GitHub` `IntelliJ IDEA` `VS Code`
+```bash
+npm run typecheck
+npm run lint
+npm run build
+npm start
+```
 
----
+## Personalização
 
-### 📊 Dashboards do Power BI em Destaque
+- **Perfil, links sociais e e-mail:** atualize `components/hero.tsx`, `components/contact.tsx` e `components/footer.tsx`.
+- **Foto:** substitua `public/profile-placeholder.svg` pela sua imagem e ajuste `components/hero.tsx`.
+- **Projetos:** edite `data/projects.ts`; imagens locais ficam em `public/projects/`. Substitua os links de demonstração (`https://example.com`) por demos reais ou remova `demoUrl` quando não houver uma.
+- **Habilidades, formação, certificados e interesses:** edite `data/skills.ts`, `data/education.ts`, `data/certificates.ts` e `data/hobbies.ts`. Substitua os links de exemplo e dados dos certificados pelos seus.
+- **SEO e redes sociais:** ajuste `metadata` em `app/layout.tsx` e os links dos componentes.
+- **URL pública:** substitua `NEXT_PUBLIC_SITE_URL` em `.env.local` pela URL do site para metadados Open Graph corretos.
+- **Cores e estilos:** edite `tailwind.config.ts` e `app/globals.css`.
 
-| Dashboard | Descrição | Links |
-| :--- | :--- | :---: |
-| **Gestão Clínica & Operacional** | Análise de atendimentos, taxa de ocupação, KPIs financeiros e tempo médio de espera. Usa DAX avançado e Query Folding. | [💻 Repositório](./) \| [🔗 Ver Interativo](#) |
-| **Análise de Vendas & Desempenho** | Acompanhamento de metas, faturamento por região e margem de lucro com inteligência temporal em DAX. | [Dashboard de vendas](https://github.com/Renato682/Dashboard-de-vendas) |
+Os textos e dados acadêmicos/certificados de exemplo devem ser revisados antes de publicar. As imagens dos projetos incluídas são ilustrações locais substituíveis.
 
----
+## Configurar o formulário de contato
 
-### 💻 Projetos de Desenvolvimento
+O formulário valida os campos no cliente e no servidor. Para enviar mensagens de verdade, configure uma conta Resend, verifique o domínio de envio e crie as variáveis de ambiente:
 
-#### 🏥 [LudoPet](https://github.com/Vitoria1705/LudoPet)
-* **Descrição:** Trabalho em equipe feito para o controle de animais disponíveis para adoção.
-* **Tech Stack:** Java, Spring Boot, MySQL, JPA/Hibernate.
-* **Destaques:** Autenticação segura, regras de negócio para agendamento e integração com banco relacional.
+```bash
+cp .env.example .env.local
+```
 
-#### 🔐 [Automação em Python](https://github.com/Renato682/Automa-o-python)
-* **Descrição:** automação feita em python para um site de contabilidade onde ele cadastra as informações de forma automática. Obs: abaixe o maximo a pagina para funcionar as coordenadas do mouse.
-* **Tech Stack:** Python, PyAutoGUI.
+Preencha `RESEND_API_KEY`, `CONTACT_EMAIL` (destinatário) e `CONTACT_FROM_EMAIL` (remetente autorizado no Resend). O endereço de exemplo `onboarding@resend.dev` pode ser usado durante a configuração inicial conforme as limitações da sua conta Resend. `NEXT_PUBLIC_SITE_URL` deve conter a URL pública do portfólio. Não publique chaves de API no repositório. Sem as variáveis do Resend, a API retorna uma mensagem clara de que o envio não está configurado.
 
----
+## Deploy na Vercel
 
-### 📬 Como me encontrar
+Importe o repositório na Vercel, configure as três variáveis de ambiente do formulário nas configurações do projeto e faça o deploy. O build de produção usa `npm run build`.
 
-- **LinkedIn:** https://www.linkedin.com/in/renato-arouche-405841327/
-- **E-mail:** renatoarouche3@gmail.com
+## Estrutura
+
+```text
+app/
+  api/contact/route.ts    # Endpoint de envio do formulário
+  globals.css
+  layout.tsx              # Layout, fontes e metadados
+  page.tsx
+components/                # Seções e componentes reutilizáveis
+data/                      # Conteúdo tipado do portfólio
+lib/contact.ts             # Schema compartilhado de validação
+public/                    # Foto e ilustrações locais
+```
