@@ -24,13 +24,13 @@ Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criaçã
 | Dashboard | Descrição | Links |
 | :--- | :--- | :---: |
 | **Gestão Clínica & Operacional** | Análise de atendimentos, taxa de ocupação, KPIs financeiros e tempo médio de espera. Usa DAX avançado e Query Folding. | [💻 Repositório](./) \| [🔗 Ver Interativo](#) |
-| **Análise de Vendas & Desempenho** | Acompanhamento de metas, faturamento por região e margem de lucro com inteligência temporal em DAX. | (https://github.com/Renato682/Dashboard-de-vendas)  |
+| **Análise de Vendas & Desempenho** | Acompanhamento de metas, faturamento por região e margem de lucro com inteligência temporal em DAX. | [Dashboard de vendas] (https://github.com/Renato682/Dashboard-de-vendas)  |
 
 ---
 
 ### 💻 Projetos de Desenvolvimento
 
-#### 🏥 [Sistema de Gestão Clínica](LINK_DO_REPOSITORIO)
+#### 🏥 [LudoPet](https://github.com/Vitoria1705/LudoPet)
 * **Descrição:** API RESTful e sistema completo para gerenciamento de consultas, pacientes e prontuários.
 * **Tech Stack:** Java, Spring Boot, MySQL, JPA/Hibernate.
 * **Destaques:** Autenticação segura, regras de negócio para agendamento e integração com banco relacional.
