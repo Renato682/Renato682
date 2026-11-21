@@ -31,7 +31,7 @@ Sou estudante de TI focado no desenvolvimento de sistemas robustos e na criaçã
 ### 💻 Projetos de Desenvolvimento
 
 #### 🏥 [LudoPet](https://github.com/Vitoria1705/LudoPet)
-* **Descrição:** API RESTful e sistema completo para gerenciamento de consultas, pacientes e prontuários.
+* **Descrição:** Trabalho em equipe feito para o controle de animais disponíveis para adoção.
 * **Tech Stack:** Java, Spring Boot, MySQL, JPA/Hibernate.
 * **Destaques:** Autenticação segura, regras de negócio para agendamento e integração com banco relacional.
 
