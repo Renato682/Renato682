@@ -20,7 +20,7 @@ export const projects: Project[] = [
     category: "Aplicação web",
     technologies: ["Java", "Spring Boot", "MySQL"],
     repositoryUrl: "https://github.com/Vitoria1705/LudoPet",
-    demoUrl: "https://example.com",
+    demoUrl: "https://github.com/Vitoria1705/LudoPet",
     featured: true,
   },
   {
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     category: "Dados & BI",
     technologies: ["Power BI", "DAX", "Power Query"],
     repositoryUrl: "https://github.com/Renato682/Dashboard-de-vendas",
-    demoUrl: "https://example.com",
+    demoUrl: "https://github.com/Renato682/Dashboard-de-vendas",
     featured: true,
   },
   {
@@ -55,6 +55,6 @@ export const projects: Project[] = [
     category: "Automação",
     technologies: ["Python", "PyAutoGUI"],
     repositoryUrl: "https://github.com/Renato682/Automa-o-python",
-    demoUrl: "https://example.com",
+    demoUrl: "https://github.com/Renato682/Automa-o-python",
   },
 ];
